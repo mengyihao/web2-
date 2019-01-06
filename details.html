@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+	<div class="content-center">
+		<div class="header">
+			<div class="top-nav">
+				<span>帮5买，享帮帮</span>
+				<ul class="head-nav">
+					<li><i class="icon icon-qq"></i></li>
+					<li><i class="icon icon-weixin"></i></li>
+					<li><i class="icon icon-boke"></i></li>
+					<li>登录</li>
+					<li>注册</li>
+					<li><i class="icon icon-xiaoxi"></i>消息</li>
+					<li><i class="icon icon-dingdan"></i>我的订单</li>
+					<li>我的收藏</li>
+					<li>帮钻兑换</li>
+					<li><i class="icon icon-shouji"></i>手机版</li>
+					<li>帮5淘</li>
+					<li>客户服务</li>
+					<li><i class="icon icon-gouwuche"></i>购物车 <span style="color: red; font-weight: 900;">0</span></li>
+				</ul>
+			</div>
+
+			<div class="logo-box">
+				<img src="images/logo_03.jpg" style="float: left;margin-top: -15px;">
+				
+				<div style="float: left;width: 716px;padding-left: 110px;">
+					<input class="input" placeholder="输入商品网址或关键词，直通全网，快速帮5折购！">
+					<input type="button" class="button" value="搜全网">
+					<ul>
+						<li class="color-red">洗发护发</li>
+						<li class="color-red">日本纸尿裤</li>
+						<li>身体乳</li>
+						<li>内衣文胸</li>
+						<li style="color: blueviolet;">iPhone 6s</li>
+						<li style="color: blueviolet;">ipad Air2</li>
+						<li>牛仔裤</li>
+						<li>奶粉</li>
+						<li>防晒霜</li>
+						<li class="color-red" style="border-right: none;">伞</li>
+					</ul>
+				</div>
+				<div style="float: right;">
+					<div class="contact-way" style="padding-top: 22px;">
+						<i class="icon icon-fuwuhao"></i>
+						<p>400-085-0505</p>
+					</div>
+					<div class="contact-way" style="padding-top: 22px;">
+						<i class="icon icon-duanxin"></i>
+						<p>mc@b5m.com</p>
+					</div>
+					<div class="contact-way changjianwenti">
+						<i class="icon-wenhao"></i>
+						<p>常见问题</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="zhanwei"></div>
+	</div>
+	<div class="content-nav">
+		<div class="content-center">
+			<ul class="nav-list">
+				<li class="active">首页</li>
+				<li>热门品牌</li>
+				<li>美妆个户</li>
+				<li>服饰鞋包</li>
+				<li>母婴生活</li>
+				<li>食品保健</li>
+				<li>韩国直邮</li>
+				<li>跨境购</li>
+			</ul>
+			<div style="float: right;">
+				<img src="images/ff_03.jpg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div style="background: #F6F5F4;">
+		<div class="content-center">
+			<p style="font-size: 12px;line-height: 24px;">首页>美容护肤/美体/精油>防晒>韩国RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</p>
+			<div style="clear: both;"></div>
+			<div class="goods">
+				<div class="good-img-box f-l">
+					<div class="good-img">
+						<img id="showImg" src="images/pp0.jpeg" alt="">
+							
+						<!--放大镜,在原图不上的小块-->
+				  		<p class="slider"></p>
+					</div>
+					<div class="good-imgs">
+						<div class="f-l span-btn" style="background: url(images/spanl.jpg) no-repeat;"></div>
+						<ul id="imgs" class="f-l">
+							<li class="imgList active" data-src="images/pp0.jpeg"><img src="images/sp0.jpeg" alt=""></li>
+							<li class="imgList" data-src="images/pp1.jpeg"><img src="images/sp1.jpeg" alt=""></li>
+						</ul>
+						<div class="f-r span-btn" style="background: url(images/spanr.jpg) no-repeat;"></div>
+					</div>
+					
+					<div id="big">
+						<img src="images/pp0.jpeg" alt="" id="bigImg"/>
+					</div>
+					
+				</div>
+				
+				
+				<div class="good-info f-l">
+					<h4>韩国RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</h4>
+					<p class="f-12" style="line-height: 20px;margin-bottom: 10px;">
+						【限购3件】超透明无痕防晒，防水防汗定妆，保湿降温不黏腻，水晶防晒喷雾，喷后皮肤水润，不油，不留白更不会想防晒霜那样抹不开，非常实用，开始存货吧
+					</p>
+					<div class="price">
+						<span>价格</span>
+						<span class="color-red">&yen;70</span>
+						<del>&yen;150</del>
+					</div>
+					<div>
+						<img src="images/ss_09.jpg" alt="">
+					</div>
+
+					<table class="select" cellpadding="6">
+						<tr>
+							<td><span>化妆品净含量</span></td>
+							<td>
+								<span class="options active">150ml</span>
+								<span class="options">200ml</span>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><span>数量</span></td>
+							<td>
+								<span class="buy-amount">
+									<i id="sub">-</i>
+									<input type="text" value="1" max="5" min="1" id="buy-amount-input">
+									<i id="add">+</i>
+								</span>
+							</td>
+							<td><span>件（库存<i id="stock">5</i>件）</span></td>
+						</tr>
+						<tr>
+							<td><span>销量</span></td>
+							<td><span class="color-red">80</span>件</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>您已选择<span style="color: #D39A39;margin-left: 15px;">"<span id="selectedAmount">150ml</span>"</span></td>
+							<td></td>
+						</tr>
+					</table>
+					<div style="margin-top: 20px;">
+						<button class="buy-button">立即购买</button>
+						<button class="add-shopping">加入购物车</button>
+					</div>
+
+					<div id="layer" style="width: 100%;height: 100%;background: rgba(255,255,255,0.8);position: fixed;top: 0; left: 0;z-index: 999;display: none;">
+						<div style="position: absolute;top: 50%;left: 50%;width: 398px;height: 218px;border: 2px solid #ccc;margin-left: -199px;margin-top: -109px;background: #fff;">
+							<h2 style="text-align: center;margin: 50px 0;">
+								<i style="display: inline-block;width: 30px;height: 30px;line-height: 30px;border: 2px solid green;border-radius: 50%;text-align: center;color: green">√</i>
+								商品已加入购物车
+							</h2>
+							<div style="text-align: center;">
+								<button id="continue" class="layer-btn">继续购物</button>
+								<button class="layer-btn layer-btn2">去购物车结算</button>
+							</div>
+							<i id="closeLayer" style="display: block;position: absolute;top: 0;right: 0;width: 30px;height: 30px;font-size: 25px;text-align: center;line-height: 30px;background: #fff;cursor: pointer;">×</i>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			
+			<div class="youkan">
+				<div>
+					<a href=""><img src="images/ww_07.jpg" alt=""></a>
+				</div>
+			</div>
+			
+
+			<div style="clear: both;">
+				<img src="images/a_07.jpg" alt="">
+			</div>
+
+		</div>
+
+	</div>
+
+		<div class="content-center">
+			<div class="footer1">
+				<img src="images/loginB.jpg" style="float: left;margin-left: 80px;margin-top: -30px;">
+				<ul style="margin-left: 60px;">
+					<li><h4>购物指南</h4></li>
+					<li>如何下单</li>
+					<li>帮5购流程</li>
+					<li>订单查询</li>
+					<li>物流配送</li>
+				</ul>
+				<ul>
+					<li><h4>支付相关</h4></li>
+					<li>支付方式</li>
+					<li>安全设置</li>
+					<li>账户信息</li>
+				</ul>
+				<ul>
+					<li><h4>售后服务</h4></li>
+					<li>取消订单</li>
+					<li>申请售后</li>
+					<li>退货流程</li>
+					<li>退款相关</li>
+				</ul>
+				<ul>
+					<li><h4>VIP服务</h4></li>
+					<li>VIP优惠</li>
+					<li>如何成为VIP</li>
+					<li>超级帮钻</li>
+				</ul>
+				<ul>
+					<li><h4>帮韩品</h4></li>
+					<li>韩国正品</li>
+					<li>闪电发货</li>
+					<li>帮韩品售后</li>
+				</ul>
+				<ul>
+					<li><h4>更多</h4></li>
+					<li>手机APP</li>
+					<li>帮5采APP</li>
+					<li>帮5淘插件</li>
+					<li>其他</li>
+				</ul>
+				<img src="images/erweima.jpg" style="float: left;">
+			</div>
+			<div style="clear: both;"></div>
+			<div class="footer2">
+				<ul>
+					<li><a href="">关于帮5买</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">合作商家</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">加入我们</a></li>
+					<li><a href="">移动应用</a></li>
+					<li><a href="">热门</a></li>
+					<li><a href="">广告加盟</a></li>
+					<li style="border-right: none;"><a href="">使用条款</a></li>
+				</ul>
+				<p>Copyright 2011-2015 B5M.com All right reserved.Powered by B5Msoft Co.Ltd</p>
+				<p>增值电信业务经营许可证：泸B2-20130065号|中华人民共和国互联网药品信息服务资格证书（泸）-非经营性-2013-0034泸卫（中医）网审【2015】10032号泸IC备11034776号-3食品流通许可证：</p>
+				<p>SP310111151410301755</p>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="footer3">
+				<img src="images/bo1.gif">
+				<img src="images/bo2.png">
+				<img src="images/bo3.gif">
+				<img src="images/bo4.png">
+				<img src="images/bo5.png">
+				<img src="images/bo6.png">
+				<img src="images/bo7.png">
+			</div>
+	
+		</div>
+	</div>
+
+	<script src="js/details.js"></script>
+</body>
+</html>
